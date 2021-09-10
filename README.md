@@ -28,6 +28,7 @@ yarn dev
 - HTML, JS and Json file are generate
 
 # SSG (static site generation) page generation
+- important
 
 
 
