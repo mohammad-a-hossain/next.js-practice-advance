@@ -27,7 +27,7 @@ yarn dev
 - its a method of pre rendering where the HTML files are generate at run time
 - HTML, JS and Json file are generate
 
-# SSG page generation
+# SSG (static site generation) page generation
 
 
 
