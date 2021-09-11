@@ -28,7 +28,9 @@ yarn dev
 - HTML, JS and Json file are generate
 
 # SSG (static site generation) page generation
-- important
+- using dynamic parameter in post components
+- getting all details of a post from post title
+- using getStaticPaths for fetching data with dynamic postId
 
 
 
