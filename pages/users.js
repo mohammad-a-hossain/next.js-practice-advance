@@ -1,4 +1,4 @@
-/* import User from '../component/user' */
+ import React from 'react' 
 
 function UserList({ users }) {
   return (
@@ -13,7 +13,7 @@ function UserList({ users }) {
         )
       })}
     </>
-  )
+  );
 }
 
 export default UserList

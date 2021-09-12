@@ -3,7 +3,7 @@ import Link from 'next/link'
  
  function Home() {
   return (
-    <div>
+    <>
       <h1>welcome to next</h1>
       <Link href='/users'>
       <a>users link</a>
@@ -15,7 +15,7 @@ import Link from 'next/link'
        <h2>user list</h2>
 
 
-    </div>
+    </>
   )
 }
    

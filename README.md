@@ -31,6 +31,11 @@ yarn dev
 - using dynamic parameter in post components
 - getting all details of a post from post title
 - using getStaticPaths for fetching data with dynamic postId
+# fallback keys
+- false
+- true : use in a large ecommerce page data
+- blocking
+
 
 
 
