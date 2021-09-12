@@ -34,7 +34,12 @@ yarn dev
 # fallback keys
 - false
 - true : use in a large ecommerce page data
-- blocking
+- blocking:
+# json serve use
+- yarn add i json-server also iclude some code in package.json file
+
+# isr (incremental static regeneration)
+- it allows to update data after you build your appps with out rebuild
 
 
 
