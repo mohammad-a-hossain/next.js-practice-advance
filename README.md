@@ -43,4 +43,27 @@ yarn dev
 
 
 
+*** revalidate key use for a period of time it will stale the page or change thd docs for time ***
+
+## rules
+***static generation***
+- HTML staticaly genereated at build time then the built page cachs and reuse for each request
+- for a dynamic page with getStaticPaths and fallback true the page is not generated at built time it onlu generate on initial request
+- with the use of getStaticProps the page generated at built time
+# SSR  server side rendering is form of pre rendring
+- it allow to pre rendering not at built time but   request time
+- html is generated at every incoming request
+- it need when you fetch data per request
+*** use getServerSiteProps() ***
+- getServerSideProps runs only server side
+- the function will never run client side
+- the code inside getSereverSideProps() will never include in js bundle that is sernt to the browser.
+- can write server side code inside getServerSideProps() 
+- can use the fs modue file system quering a database for accessing
+- its only for pre rendering not for client side data fetching
+- its retur an object it return also props key which is an object
+- it runs only on request time
+
+# server side rendering with dynamic parameter
+
 
