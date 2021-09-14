@@ -7,14 +7,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "serve-json":"json-server --watch db.json --port 5000"
+    "serve-json": "json-server --watch db.json --port 5000"
   },
   "dependencies": {
     "i": "^0.3.6",
     "json-server": "^0.16.3",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "swr": "^1.0.1"
   },
   "devDependencies": {
     "eslint": "7.32.0",

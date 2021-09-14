@@ -64,6 +64,17 @@ yarn dev
 - its retur an object it return also props key which is an object
 - it runs only on request time
 
-# server side rendering with dynamic parameter
+- server side rendering with dynamic parameter
+- use getStaticProps() and getServerSideProps()
 
+# fetching data for client side 
 
+- using useStete and useEffect variable 
+- using dbjson making a dashboard json data and call it
+
+***SWR** (stale-while-revalidate)
+- its react hook for data fetching
+- stale-while-revalidate
+- need install swr package -- run yarn add swr
+- use swr hook to change the data
+- it is good for super fast data fetching
