@@ -47,9 +47,12 @@ yarn dev
 
 ## rules
 ***static generation***
-- HTML staticaly genereated at build time then the built page cachs and reuse for each request
+- HTML staticaly genereated at build time then the built page cachs by cdn  and reuse for each request
+- pages can built once
 - for a dynamic page with getStaticPaths and fallback true the page is not generated at built time it onlu generate on initial request
 - with the use of getStaticProps the page generated at built time
+- pages can not be updataed without a full re built
+- fallback: false| true | blocking
 # SSR  server side rendering is form of pre rendring
 - it allow to pre rendering not at built time but   request time
 - html is generated at every incoming request
@@ -78,3 +81,15 @@ yarn dev
 - need install swr package -- run yarn add swr
 - use swr hook to change the data
 - it is good for super fast data fetching
+*** server side rendering fetch data to  client side ***
+- making a event js folder 
+- use getServerSideProps()
+- use useState for changing the event data
+- use the filtering function category ways
+- use the next/router
+
+***rules server side rendering***
+- fetch data at request time
+- use getServerSideProps() help with SSR data fetching
+- combining pre rendering with client side data fetching
+- shallow routing 
